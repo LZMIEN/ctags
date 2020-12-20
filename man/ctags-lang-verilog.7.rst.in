@@ -82,7 +82,7 @@ because they cannot be overridden.
 "output.tags"
 with "--options=NONE --sort=no -o - --fields-SystemVerilog=+{parameter} input.sv"
 
-.. code-block:: tags
+.. code-block:: ctags
 
 	L1      foo.sv  /^parameter L1 = "synonym for the localparam";$/;"      c       parameter:
 	with_parameter_port_list foo.sv  /^module with_parameter_port_list #($/;" m
